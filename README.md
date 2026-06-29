@@ -14,28 +14,25 @@
 ## Architecture
 
 ```mermaid
-flowchart LR
-    U[User] --> SB[Streamlit Sidebar Controls]
-    SB --> APP[app.py]
-
-    APP --> LD[load_data()]
-    LD --> PX[Plotly Sample Dataset<br/>px.data.stocks()]
-    LD --> DF[Pandas DataFrame]
-
-    DF --> GM[Growth Metrics]
-    DF --> LC[Line Chart]
-    GM --> KPIs[Metric Cards]
-    GM --> BP[Best Performer]
-    GM --> BC[Bar Chart]
-    GM --> IC[Investment Calculator]
-
-    APP --> UI[Streamlit UI]
-    KPIs --> UI
-    BP --> UI
-    LC --> UI
-    BC --> UI
-    IC --> UI
-    UI --> U
+graph LR;
+    U["User"] --> SB["Streamlit Sidebar Controls"];
+    SB --> APP["app.py"];
+    APP --> LD["load_data()"];
+    LD --> PX["Plotly Sample Dataset: px.data.stocks()"];
+    LD --> DF["Pandas DataFrame"];
+    DF --> GM["Growth Metrics"];
+    DF --> LC["Line Chart"];
+    GM --> KPIs["Metric Cards"];
+    GM --> BP["Best Performer"];
+    GM --> BC["Bar Chart"];
+    GM --> IC["Investment Calculator"];
+    APP --> UI["Streamlit UI"];
+    KPIs --> UI;
+    BP --> UI;
+    LC --> UI;
+    BC --> UI;
+    IC --> UI;
+    UI --> U;
 ```
 
 ## Tech Stack
