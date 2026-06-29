@@ -1,0 +1,220 @@
+- generic [active] [ref=e2]:
+  - generic [ref=e6]:
+    - iframe [ref=e7]:
+      - generic [active]:
+        - generic [ref=f3e1]:
+          - banner [ref=f3e2]:
+            - generic [ref=f3e4]:
+              - generic [ref=f3e5]:
+                - button "Fork" [ref=f3e7] [cursor=pointer]:
+                  - generic [ref=f3e9]: Fork
+                - button [ref=f3e11] [cursor=pointer]
+              - button [ref=f3e15] [cursor=pointer]:
+                - img [ref=f3e16]
+          - generic [ref=f3e19]:
+            - generic [ref=f3e21]:
+              - button [ref=f3e24] [cursor=pointer]:
+                - img [ref=f3e25]
+              - generic [ref=f3e34]:
+                - paragraph [ref=f3e37]: Choose stocks
+                - generic [ref=f3e40]:
+                  - generic [ref=f3e41]:
+                    - button "AAPL, close by backspace" [ref=f3e42] [cursor=pointer]:
+                      - generic "AAPL" [ref=f3e43]
+                      - img [ref=f3e45]
+                    - button "MSFT, close by backspace" [ref=f3e47] [cursor=pointer]:
+                      - generic "MSFT" [ref=f3e48]
+                      - img [ref=f3e50]
+                    - button "GOOG, close by backspace" [ref=f3e52] [cursor=pointer]:
+                      - generic "GOOG" [ref=f3e53]
+                      - img [ref=f3e55]
+                    - combobox "Selected AAPL, MSFT, GOOG. Choose stocks" [ref=f3e58]
+                  - generic [ref=f3e59]:
+                    - button "Clear all" [ref=f3e60] [cursor=pointer]
+                    - img "open" [ref=f3e62]
+            - generic [ref=f3e70]:
+              - heading "Stock Price Explorer" [level=1] [ref=f3e75]: Stock Price Explorer
+              - paragraph [ref=f3e80]: This app uses Plotly's built-in normalized historical sample dataset. It is for comparison and learning only, not live market data or investment advice.
+              - alert [ref=f3e83]:
+                - paragraph [ref=f3e88]: Values are indexed to 1.00 at the start of the sample period, so each line shows relative growth since January 2018. These are normalized sample prices, not real-time quotes.
+              - alert [ref=f3e91]:
+                - paragraph [ref=f3e96]: Did you know? Apple introduced the original iPhone on January 9, 2007, as a combination of a mobile phone, a widescreen iPod, and an Internet communications device.
+              - paragraph [ref=f3e100]: "Source: Apple Newsroom, \"Apple Reinvents the Phone with iPhone\" (January 9, 2007)."
+              - generic [ref=f3e101]:
+                - generic [ref=f3e107]:
+                  - paragraph [ref=f3e111]: AAPL
+                  - generic [ref=f3e113]: 1.68x
+                  - generic [ref=f3e114]:
+                    - img [ref=f3e115]
+                    - generic [ref=f3e118]: +67.8%
+                - generic [ref=f3e124]:
+                  - paragraph [ref=f3e128]: MSFT
+                  - generic [ref=f3e130]: 1.79x
+                  - generic [ref=f3e131]:
+                    - img [ref=f3e132]
+                    - generic [ref=f3e135]: +78.8%
+                - generic [ref=f3e141]:
+                  - paragraph [ref=f3e145]: GOOG
+                  - generic [ref=f3e147]: 1.21x
+                  - generic [ref=f3e148]:
+                    - img [ref=f3e149]
+                    - generic [ref=f3e152]: +21.3%
+              - heading "Best performer" [level=3] [ref=f3e157]: Best performer
+              - generic [ref=f3e159]:
+                - generic [ref=f3e165]:
+                  - paragraph [ref=f3e169]: Top selected stock
+                  - generic [ref=f3e171]: MSFT
+                  - generic [ref=f3e172]:
+                    - img [ref=f3e173]
+                    - generic [ref=f3e176]: +78.8%
+                - paragraph [ref=f3e184]: MSFT had the highest total growth among the currently selected stocks in this normalized sample. A final value of 1.79x means the sample ended at 1.79 times its starting index value.
+              - generic [ref=f3e189]:
+                - img:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Jan 2018
+                        - generic:
+                          - generic: Jul 2018
+                        - generic:
+                          - generic: Jan 2019
+                        - generic:
+                          - generic: Jul 2019
+                      - generic:
+                        - generic:
+                          - generic: "0.8"
+                        - generic:
+                          - generic: "1"
+                        - generic:
+                          - generic: "1.2"
+                        - generic:
+                          - generic: "1.4"
+                        - generic:
+                          - generic: "1.6"
+                        - generic:
+                          - generic: "1.8"
+                - img:
+                  - generic:
+                    - generic [ref=f3e205]:
+                      - generic [ref=f3e206]: variable
+                      - generic [ref=f3e209]: AAPL
+                      - generic [ref=f3e213]: MSFT
+                      - generic [ref=f3e217]: GOOG
+                    - generic:
+                      - generic:
+                        - generic: Normalized price over time
+                    - generic:
+                      - generic: date
+                    - generic:
+                      - generic: value
+                - generic [ref=f3e219]:
+                  - img [ref=f3e222] [cursor=pointer]
+                  - generic [ref=f3e224]:
+                    - img [ref=f3e226] [cursor=pointer]
+                    - img [ref=f3e229] [cursor=pointer]
+                  - generic [ref=f3e231]:
+                    - img [ref=f3e233] [cursor=pointer]
+                    - img [ref=f3e236] [cursor=pointer]
+                    - img [ref=f3e239] [cursor=pointer]
+                    - img [ref=f3e242] [cursor=pointer]
+                  - img [ref=f3e246] [cursor=pointer]
+                - img
+              - generic [ref=f3e252]:
+                - img:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 78.8%
+                              - generic:
+                                - generic: 67.8%
+                              - generic:
+                                - generic: 21.3%
+                      - generic:
+                        - generic:
+                          - generic: MSFT
+                        - generic:
+                          - generic: AAPL
+                        - generic:
+                          - generic: GOOG
+                      - generic:
+                        - generic:
+                          - generic: 0%
+                        - generic:
+                          - generic: 20%
+                        - generic:
+                          - generic: 40%
+                        - generic:
+                          - generic: 60%
+                        - generic:
+                          - generic: 80%
+                - img:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Total percentage growth by selected stock
+                    - generic:
+                      - generic: Stock
+                    - generic:
+                      - generic: Total growth (%)
+                - generic [ref=f3e266]:
+                  - img [ref=f3e269] [cursor=pointer]
+                  - generic [ref=f3e271]:
+                    - img [ref=f3e273] [cursor=pointer]
+                    - img [ref=f3e276] [cursor=pointer]
+                  - generic [ref=f3e278]:
+                    - img [ref=f3e280] [cursor=pointer]
+                    - img [ref=f3e283] [cursor=pointer]
+                    - img [ref=f3e286] [cursor=pointer]
+                    - img [ref=f3e289] [cursor=pointer]
+                  - img [ref=f3e293] [cursor=pointer]
+                - img
+              - heading "What if I invested?" [level=3] [ref=f3e299]: What if I invested?
+              - generic [ref=f3e301]:
+                - generic [ref=f3e305]:
+                  - generic [ref=f3e307]:
+                    - paragraph [ref=f3e310]: Choose a stock for the calculator
+                    - generic [ref=f3e312]:
+                      - generic [ref=f3e313]:
+                        - generic [ref=f3e314]: AAPL
+                        - combobox "Selected AAPL. Choose a stock for the calculator" [ref=f3e316]
+                      - img "open" [ref=f3e318]
+                  - generic [ref=f3e321]:
+                    - paragraph [ref=f3e324]: Initial investment amount
+                    - generic [ref=f3e325]:
+                      - spinbutton "Initial investment amount" [ref=f3e328]: "1000.00"
+                      - generic [ref=f3e329]:
+                        - button [ref=f3e330] [cursor=pointer]:
+                          - img [ref=f3e331]
+                        - button [ref=f3e333] [cursor=pointer]:
+                          - img [ref=f3e334]
+                - generic [ref=f3e339]:
+                  - generic [ref=f3e341]:
+                    - paragraph [ref=f3e345]: Estimated ending value
+                    - generic [ref=f3e347]: $1,678.00
+                    - generic [ref=f3e348]:
+                      - img [ref=f3e349]
+                      - generic [ref=f3e352]: $678.00
+                  - paragraph [ref=f3e356]: This estimate multiplies the entered amount by AAPL's normalized sample growth factor of 1.68x. It does not account for live prices, dividends, taxes, fees, inflation, or timing of real trades.
+        - img [ref=f3e357]
+    - link [ref=e8] [cursor=pointer]:
+      - /url: https://streamlit.io/cloud
+      - img [ref=e10]
+    - link "App Creator Avatar" [ref=e16] [cursor=pointer]:
+      - /url: https://share.streamlit.io/user/marinsekj
+      - img "App Creator Avatar" [ref=e17]
+  - iframe [ref=e1]:
+    - generic [ref=f1e2]:
+      - img [ref=f1e4]
+      - generic [ref=f1e11]:
+        - heading "Status embed installed correctly" [level=1] [ref=f1e12]:
+          - paragraph [ref=f1e13]: Status embed installed correctly
+        - generic [ref=f1e14]: This will be shown if an incident or maintenance is posted on your status page.
+        - link "View latest updates" [ref=f1e16] [cursor=pointer]:
+          - /url: https://www.streamlitstatus.com?utm_source=embed
+      - button [ref=f1e18] [cursor=pointer]:
+        - img [ref=f1e19]
