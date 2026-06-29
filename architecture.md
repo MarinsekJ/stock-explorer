@@ -1,12 +1,19 @@
-flowchart LR
-    subgraph Offline
-        DS["Data Source / API"] --> DC["Data Cleaning"]
-        DC --> MT["Model Training"]
-        MT --> SM["Saved Model (.pkl)"]
-    end
-
-    subgraph Runtime
-        SM --> BE["Backend Prediction Endpoint"]
-        BE --> FE["Frontend"]
-        FE --> U["User"]
-    end
+graph LR;
+    U["User"] --> SB["Streamlit Sidebar Controls"];
+    SB --> APP["app.py"];
+    APP --> LD["load_data()"];
+    LD --> PX["Plotly Sample Dataset: px.data.stocks()"];
+    LD --> DF["Pandas DataFrame"];
+    DF --> GM["Growth Metrics"];
+    DF --> LC["Line Chart"];
+    GM --> KPIs["Metric Cards"];
+    GM --> BP["Best Performer"];
+    GM --> BC["Bar Chart"];
+    GM --> IC["Investment Calculator"];
+    APP --> UI["Streamlit UI"];
+    KPIs --> UI;
+    BP --> UI;
+    LC --> UI;
+    BC --> UI;
+    IC --> UI;
+    UI --> U;
