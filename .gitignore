@@ -53,6 +53,7 @@ screenshots/
 *.webp
 *.mp4
 *.webm
+*.txt
 
 # Keep core project files trackable
 !app.py

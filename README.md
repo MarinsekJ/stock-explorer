@@ -60,3 +60,10 @@ streamlit run app.py
 
 - The app uses Plotly's normalized sample stock dataset, not live market data.
 - Values are indexed to `1.00` at the start of the sample period, so the charts show relative growth rather than raw prices.
+
+## Reflection
+The Playwright MCP helped the most because it let me verify the live app directly instead of relying on assumptions about the deployed UI.
+It was especially useful for checking what actually rendered in the browser and producing a screenshot as evidence.
+One thing that surprised me was that the Streamlit page loaded with the hosting shell and page title, but the expected app content did not appear.
+That made the browser snapshot more valuable than a simple visual check, because it exposed the real loaded state of the page.
+
